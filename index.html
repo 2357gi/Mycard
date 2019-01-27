@@ -9,7 +9,7 @@
   <!-- AR.jsのデバックとA-FrameのVRボタンを非表示 -->
   <a-scene embedded arjs="debugUIEnabled: false" vr-mode-ui="enabled: false">
     <!-- a-markerのtypeにpatternを設定, 作ったpattファイルをurlにを指定 -->
-    <a-marker preset="hiro">
+    <a-marker preset='costom' type='pattern' url='/marker/2357gi_v1.patt'>
       <!-- 赤い立方体を表示 -->
       <a-box position="0 0.5 0" width="0.5" height="0.5" depth="0.5" color="red"></a-box>
     </a-marker>
