@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#target {
+	width: 640px;
+	height: 640px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -3; /* video 要素よりも下に描画する。 */
+	background: #faa;
+}
+#target .item-image {
+	width: 640px;
+	height: 400px;
+	margin-top: 50px;
+	text-align: center;
+}
+#target .item-image img {
+	width: 400px;
+	height: 400px;
+}
+#target .item-marquee {
+	width: 640px;
+	height: 190px;
+	text-align: center;
+	font-weight: bold;
+	line-height: 190px;
+}
+
